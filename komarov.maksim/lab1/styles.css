@@ -23,7 +23,7 @@ body {
 .breadcrumbs-item:not(:last-child)::after {
   margin-inline: 14px;
   color: #333;
-  content: ">";
+  content: '>';
 }
 
 .breadcrumbs-item a {
