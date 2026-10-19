@@ -19,3 +19,13 @@
 
 В таблицах учтены вычитательные записи `IV`, `IX`, `XL`, `XC`, `CD` и `CM`. Для
 нецелого числа или значения вне диапазона 1–3999 выбрасывается `RangeError`.
+
+## Запуск
+
+Из корня репозитория выполните:
+
+```bash
+node --input-type=module -e 'import { toRoman } from "./komarov.maksim/lab2/solution.js"; console.log(toRoman(1994));'
+```
+
+Ожидаемый вывод: `MCMXCIV`. Дополнительные библиотеки не нужны.
