@@ -1,4 +1,5 @@
 import React from 'react';
+
 function getPageNumbers(currentPage, totalPages) {
   const pages = [];
 
@@ -43,7 +44,7 @@ export default function Pagination({currentPage, totalPages, onPageChange}) {
         type="button"
         disabled={currentPage === 1}
         onClick={() => onPageChange(currentPage - 1)}
-        data-testid="pagination-prev"
+        data-testid="page-prev"
       >
         <span aria-hidden="true">←</span> Назад
       </button>
@@ -57,7 +58,9 @@ export default function Pagination({currentPage, totalPages, onPageChange}) {
           ) : (
             <button
               key={page}
-              className={`pagination-page ${page === currentPage ? 'pagination-page-active' : ''}`}
+              className={`pagination-page ${
+                page === currentPage ? 'pagination-page-active' : ''
+              }`}
               type="button"
               aria-label={`Страница ${page}`}
               aria-current={page === currentPage ? 'page' : undefined}
@@ -76,7 +79,7 @@ export default function Pagination({currentPage, totalPages, onPageChange}) {
         type="button"
         disabled={currentPage === totalPages}
         onClick={() => onPageChange(currentPage + 1)}
-        data-testid="pagination-next"
+        data-testid="page-next"
       >
         Вперёд <span aria-hidden="true">→</span>
       </button>
