@@ -44,7 +44,7 @@ export default function Pagination({currentPage, totalPages, onPageChange}) {
         type="button"
         disabled={currentPage === 1}
         onClick={() => onPageChange(currentPage - 1)}
-        data-testid="page-prev"
+        data-testid="page-previous"
       >
         <span aria-hidden="true">←</span> Назад
       </button>
