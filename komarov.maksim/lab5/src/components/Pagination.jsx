@@ -65,7 +65,7 @@ export default function Pagination({currentPage, totalPages, onPageChange}) {
               aria-label={`Страница ${page}`}
               aria-current={page === currentPage ? 'page' : undefined}
               onClick={() => onPageChange(page)}
-              data-testid="pagination-page"
+              data-testid="page-number"
               data-page={page}
             >
               {page}
