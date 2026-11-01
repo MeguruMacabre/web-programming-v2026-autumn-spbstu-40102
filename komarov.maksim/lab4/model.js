@@ -105,3 +105,4 @@ export {groupStudentsBySubject as groupStudentsBySubjects};
 export {getStudentsWithMaxAverage as getTopStudents};
 export {getStudentsWithMaxAverage as getStudentsWithHighestAverage};
 export {getStudentsWhoPassedSubject as getStudentsBySubject};
+export {getStudentsWhoPassedSubject as findStudentsBySubject};
