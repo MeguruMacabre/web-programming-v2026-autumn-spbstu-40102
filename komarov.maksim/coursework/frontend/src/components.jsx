@@ -34,9 +34,9 @@ export function Footer() {
     <div><Logo /><p className="footer-caption">Магазин надежных гаджетов</p><p className="copyright">© 2024 ООО «Гаджет Хаб». Все права защищены</p></div>
     <a className="footer-phone" href="tel:88006783424"><Smartphone size={24} />8 (800) 678-34-24</a>
     <div className="social-links" aria-label="Социальные сети">
-      <a href="https://vk.com/" aria-label="ВКонтакте" target="_blank" rel="noreferrer"><img src="/assets/social icons/vk.png" alt="" /></a>
-      <a href="https://t.me/" aria-label="Telegram" target="_blank" rel="noreferrer"><img src="/assets/social icons/telegram.png" alt="" /></a>
-      <a href="https://www.whatsapp.com/" aria-label="WhatsApp" target="_blank" rel="noreferrer"><img src="/assets/social icons/whatsapp.png" alt="" /></a>
+      <a href="https://vk.com/" aria-label="ВКонтакте" target="_blank" rel="noreferrer"><img src="/assets/social%20icons/vk.png" alt="" /></a>
+      <a href="https://t.me/" aria-label="Telegram" target="_blank" rel="noreferrer"><img src="/assets/social%20icons/telegram.png" alt="" /></a>
+      <a href="https://www.whatsapp.com/" aria-label="WhatsApp" target="_blank" rel="noreferrer"><img src="/assets/social%20icons/whatsapp.png" alt="" /></a>
     </div>
   </div></footer>;
 }
