@@ -1,8 +1,8 @@
 frontend/node_modules/
 frontend/dist/
-.dev-server
+.dev-server*
 .dev.local.json
-coursework/backend/server
-coursework/backend/data/.orders-*.tmp
-coursework/backend/coverage.out
+backend/server
+backend/data/.orders-*.tmp
+backend/coverage.out
 .DS_Store
